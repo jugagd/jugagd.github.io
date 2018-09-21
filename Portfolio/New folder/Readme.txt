@@ -1,0 +1,1 @@
+Base project with Bootstrap & Jquery added (Also one JS and one CSS) - Made by JUGAGD
