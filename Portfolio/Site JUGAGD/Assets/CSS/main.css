@@ -17,10 +17,16 @@
       font-weight: 400;
       margin-bottom: 30px;
   }  
+  .image{
+    position: relative;
+    top: -100%;
+    width: 35%;
+    
+  }
   .jumbotron {
-      background-color: #f4511e;
+      background-color: #149dcc;
       color: #fff;
-      padding: 100px 25px;
+      padding: 0 0;
       font-family: Montserrat, sans-serif;
   }
   .container-fluid {
@@ -30,11 +36,11 @@
       background-color: #f6f6f6;
   }
   .logo-small {
-      color: #f4511e;
+      color: #149dcc;
       font-size: 50px;
   }
   .logo {
-      color: #f4511e;
+      color: #149dcc;
       font-size: 200px;
   }
   .thumbnail {
@@ -106,8 +112,9 @@
       color: #fff;
   }
   .navbar {
+    padding: 5px;
       margin-bottom: 0;
-      background-color: #f4511e;
+      background-color: black;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -120,7 +127,7 @@
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
+      color: #149dcc !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -129,7 +136,7 @@
   }
   footer .glyphicon {
       font-size: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       color: #f4511e;
   }
   .slideanim {visibility:hidden;}
