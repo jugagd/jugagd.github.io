@@ -23,6 +23,10 @@
     width: 35%;
     
   }
+  .photo{
+    position: relative;
+    width: 110%;
+  }
   .jumbotron {
       background-color: #149dcc;
       color: #fff;
